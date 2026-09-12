@@ -1,1 +1,261 @@
-<!DOCTYPE html> <html lang="en"> <head>   <meta charset="UTF-8">   <meta name="viewport" content="width=device-width, initial-scale=1.0">   <meta name="description" content="Digital Business Card and Portfolio of Yoav Levi, Computer Science Student and Front-End Developer.">   <title>Yoav Levi | Digital Business Card</title>   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">   <link rel="stylesheet" href="style.css"> </head> <body>   <!-- Pure CSS Theme Toggle Control -->   <input type="checkbox" id="theme-toggle" class="theme-toggle-input">    <div class="page-container">     <header class="navbar">       <div class="nav-brand">         <span class="status-indicator" title="Available for opportunities"></span>         <span class="nav-brand-name">Yoav Levi</span>       </div>        <label for="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">         <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">           <circle cx="12" cy="12" r="5"></circle>           <line x1="12" y1="1" x2="12" y2="3"></line>           <line x1="12" y1="21" x2="12" y2="23"></line>           <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>           <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>           <line x1="1" y1="12" x2="3" y2="12"></line>           <line x1="21" y1="12" x2="23" y2="12"></line>           <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>           <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>         </svg>         <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>         </svg>         <span class="theme-toggle-label">Theme</span>       </label>     </header>      <main class="main-wrapper">       <!-- Profile Hero Card -->       <section class="card hero-card" id="profile">         <div class="hero-content">           <figure class="profile-figure">             <img src="assets/avatar.svg" alt="Profile portrait of Yoav Levi" class="profile-img" width="130" height="130">           </figure>            <div class="hero-text">             <span class="badge badge-role">Front-End Developer</span>             <h1 class="hero-name">Yoav Levi</h1>             <p class="hero-tagline">B.Sc. Computer Science Student &amp; Web Enthusiast</p>             <p class="hero-location">               <svg class="inline-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>                 <circle cx="12" cy="10" r="3"></circle>               </svg>               Tel Aviv, Israel             </p>           </div>         </div>          <div class="hero-actions">           <a href="#contact" class="btn btn-primary">Contact Me</a>           <a href="https://github.com/yoav7000" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">             <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>             </svg>             GitHub           </a>           <a href="https://linkedin.com/in/yoav-dev" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">             <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>               <rect x="2" y="9" width="4" height="12"></rect>               <circle cx="4" cy="4" r="2"></circle>             </svg>             LinkedIn           </a>         </div>       </section>        <!-- About Section -->       <section class="card section-about" id="about">         <h2 class="section-title">About Me</h2>         <p class="section-text">           I am a passionate Computer Science student focused on modern front-end web development, clean architecture, and responsive user interfaces. I love taking complex technical ideas and transforming them into fast, intuitive, and accessible web experiences. My background covers algorithmic problem solving, web standards, and full-stack software development.         </p>         <p class="section-text">           Currently seeking front-end and full-stack internship opportunities where I can apply my web development skills, contribute to real-world products, and collaborate with passionate engineers.         </p>       </section>        <!-- Skills Section -->       <section class="card section-skills" id="skills">         <h2 class="section-title">Technical Skills</h2>                  <div class="skills-grid">           <div class="skill-category">             <h3 class="skill-category-title">Front-End</h3>             <ul class="tag-list">               <li class="tag">HTML5</li>               <li class="tag">CSS3 / Flexbox / Grid</li>               <li class="tag">Responsive Web Design</li>               <li class="tag">Web Accessibility (a11y)</li>               <li class="tag">Modern UI / UX</li>             </ul>           </div>            <div class="skill-category">             <h3 class="skill-category-title">Programming Languages</h3>             <ul class="tag-list">               <li class="tag">JavaScript (ES6+)</li>               <li class="tag">TypeScript</li>               <li class="tag">Python</li>               <li class="tag">Java</li>               <li class="tag">C / C++</li>             </ul>           </div>            <div class="skill-category">             <h3 class="skill-category-title">Tools &amp; Workflow</h3>             <ul class="tag-list">               <li class="tag">Git &amp; GitHub</li>               <li class="tag">GitHub Pages</li>               <li class="tag">VS Code</li>               <li class="tag">Linux / Bash</li>               <li class="tag">Figma</li>             </ul>           </div>         </div>       </section>        <!-- Featured Projects Section -->       <section class="card section-projects" id="projects">         <h2 class="section-title">Featured Projects</h2>                  <div class="projects-grid">           <article class="project-card">             <div class="project-header">               <h3 class="project-title">DevPulse Dashboard</h3>               <span class="project-badge">Web App</span>             </div>             <p class="project-description">               A productivity workspace dashboard for developers featuring task tracking, focus timers, and personal development analytics. Built with clean responsive layouts and zero runtime bloat.             </p>             <div class="project-tags">               <span class="tag">HTML5</span>               <span class="tag">CSS Grid</span>               <span class="tag">UI Design</span>             </div>             <div class="project-links">               <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>             </div>           </article>            <article class="project-card">             <div class="project-header">               <h3 class="project-title">AlgoRun Simulator</h3>               <span class="project-badge">Interactive Tool</span>             </div>             <p class="project-description">               An educational visualization tool designed to demonstrate fundamental sorting and graph traversal algorithms step-by-step with intuitive visual feedback.             </p>             <div class="project-tags">               <span class="tag">Algorithms</span>               <span class="tag">Visualizer</span>               <span class="tag">Front-End</span>             </div>             <div class="project-links">               <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>             </div>           </article>            <article class="project-card">             <div class="project-header">               <h3 class="project-title">EcoTrack Sustainability App</h3>               <span class="project-badge">Green Tech</span>             </div>             <p class="project-description">               A lightweight calculator tracking daily carbon footprint and sustainability metrics with interactive data summaries and actionable reduction tips.             </p>             <div class="project-tags">               <span class="tag">Web Design</span>               <span class="tag">Responsive</span>               <span class="tag">CSS Themes</span>             </div>             <div class="project-links">               <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>             </div>           </article>         </div>       </section>        <!-- Contact Section -->       <section class="card section-contact" id="contact">         <h2 class="section-title">Get In Touch</h2>         <p class="section-text">Feel free to reach out directly via phone, email, or social profiles.</p>          <address class="contact-grid">           <a href="tel:+972507654321" class="contact-item">             <div class="contact-icon-box">               <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>               </svg>             </div>             <div class="contact-details">               <span class="contact-type">Phone</span>               <span class="contact-value">+972 50-765-4321</span>             </div>           </a>            <a href="mailto:yoav.levi@example.com" class="contact-item">             <div class="contact-icon-box">               <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>                 <polyline points="22,6 12,13 2,6"></polyline>               </svg>             </div>             <div class="contact-details">               <span class="contact-type">Email</span>               <span class="contact-value">yoav.levi@example.com</span>             </div>           </a>            <a href="https://github.com/yoav7000" class="contact-item" target="_blank" rel="noopener noreferrer">             <div class="contact-icon-box">               <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>               </svg>             </div>             <div class="contact-details">               <span class="contact-type">GitHub</span>               <span class="contact-value">github.com/yoav7000</span>             </div>           </a>            <a href="https://linkedin.com/in/yoav-dev" class="contact-item" target="_blank" rel="noopener noreferrer">             <div class="contact-icon-box">               <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>                 <rect x="2" y="9" width="4" height="12"></rect>                 <circle cx="4" cy="4" r="2"></circle>               </svg>             </div>             <div class="contact-details">               <span class="contact-type">LinkedIn</span>               <span class="contact-value">linkedin.com/in/yoav-dev</span>             </div>           </a>         </address>       </section>     </main>      <footer class="page-footer">       <p>&copy; 2026 Yoav Levi. Built with pure HTML &amp; CSS (No JavaScript).</p>       <a href="#profile" class="back-to-top">Back to top &uarr;</a>     </footer>   </div> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Business Card and Portfolio of Yoav Levi, Computer Science Student and Front-End Developer.">
+  <title>Yoav Levi | Digital Business Card</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Pure CSS Theme Toggle Control -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+
+  <div class="page-container">
+    <header class="navbar">
+      <div class="nav-brand">
+        <span class="status-indicator" title="Available for opportunities"></span>
+        <span class="nav-brand-name">Yoav Levi</span>
+      </div>
+
+      <label for="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+        <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span class="theme-label-dark">Dark Mode</span>
+        <span class="theme-label-light">Light Mode</span>
+      </label>
+    </header>
+
+    <main class="main-wrapper">
+      <!-- Profile Hero Card -->
+      <section class="card hero-card" id="profile">
+        <div class="hero-content">
+          <figure class="profile-figure">
+            <img src="assets/avatar.svg" alt="Profile portrait of Yoav Levi" class="profile-img" width="130" height="130">
+          </figure>
+
+          <div class="hero-text">
+            <span class="badge badge-role">Front-End Developer</span>
+            <h1 class="hero-name">Yoav Levi</h1>
+            <p class="hero-tagline">B.Sc. Computer Science Student &amp; Web Enthusiast</p>
+            <p class="hero-location">
+              <svg class="inline-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Tel Aviv, Israel
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="https://github.com/yoav7000" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/yoav-dev" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="card section-about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
+          I am a passionate Computer Science student focused on modern front-end web development, clean architecture, and responsive user interfaces. I love taking complex technical ideas and transforming them into fast, intuitive, and accessible web experiences. My background covers algorithmic problem solving, web standards, and full-stack software development.
+        </p>
+        <p class="section-text">
+          Currently seeking front-end and full-stack internship opportunities where I can apply my web development skills, contribute to real-world products, and collaborate with passionate engineers.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="card section-skills" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-category-title">Front-End</h3>
+            <ul class="tag-list">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3 / Flexbox / Grid</li>
+              <li class="tag">Responsive Web Design</li>
+              <li class="tag">Web Accessibility (a11y)</li>
+              <li class="tag">Modern UI / UX</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Programming Languages</h3>
+            <ul class="tag-list">
+              <li class="tag">JavaScript (ES6+)</li>
+              <li class="tag">TypeScript</li>
+              <li class="tag">Python</li>
+              <li class="tag">Java</li>
+              <li class="tag">C / C++</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Tools &amp; Workflow</h3>
+            <ul class="tag-list">
+              <li class="tag">Git &amp; GitHub</li>
+              <li class="tag">GitHub Pages</li>
+              <li class="tag">VS Code</li>
+              <li class="tag">Linux / Bash</li>
+              <li class="tag">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Section -->
+      <section class="card section-projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">DevPulse Dashboard</h3>
+              <span class="project-badge">Web App</span>
+            </div>
+            <p class="project-description">
+              A productivity workspace dashboard for developers featuring task tracking, focus timers, and personal development analytics. Built with clean responsive layouts and zero runtime bloat.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS Grid</span>
+              <span class="tag">UI Design</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">AlgoRun Simulator</h3>
+              <span class="project-badge">Interactive Tool</span>
+            </div>
+            <p class="project-description">
+              An educational visualization tool designed to demonstrate fundamental sorting and graph traversal algorithms step-by-step with intuitive visual feedback.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Algorithms</span>
+              <span class="tag">Visualizer</span>
+              <span class="tag">Front-End</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">EcoTrack Sustainability App</h3>
+              <span class="project-badge">Green Tech</span>
+            </div>
+            <p class="project-description">
+              A lightweight calculator tracking daily carbon footprint and sustainability metrics with interactive data summaries and actionable reduction tips.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Web Design</span>
+              <span class="tag">Responsive</span>
+              <span class="tag">CSS Themes</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yoav7000" class="link-item" target="_blank" rel="noopener noreferrer">Source Code &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="card section-contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-text">Feel free to reach out directly via phone, email, or social profiles.</p>
+
+        <address class="contact-grid">
+          <a href="tel:+972507654321" class="contact-item">
+            <div class="contact-icon-box">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="contact-type">Phone</span>
+              <span class="contact-value">+972 50-765-4321</span>
+            </div>
+          </a>
+
+          <a href="mailto:yoav.levi@example.com" class="contact-item">
+            <div class="contact-icon-box">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="contact-type">Email</span>
+              <span class="contact-value">yoav.levi@example.com</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/yoav7000" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <div class="contact-icon-box">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="contact-type">GitHub</span>
+              <span class="contact-value">github.com/yoav7000</span>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in/yoav-dev" class="contact-item" target="_blank" rel="noopener noreferrer">
+            <div class="contact-icon-box">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="contact-details">
+              <span class="contact-type">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/yoav-dev</span>
+            </div>
+          </a>
+        </address>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>&copy; 2026 Yoav Levi. Built with pure HTML &amp; CSS (No JavaScript).</p>
+      <a href="#profile" class="back-to-top">Back to top &uarr;</a>
+    </footer>
+  </div>
+</body>
+</html>
